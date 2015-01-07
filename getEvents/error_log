@@ -1,0 +1,2 @@
+[30-Oct-2014 18:43:37] PHP Parse error:  syntax error, unexpected ')', expecting ';' in /home3/jakepode/public_html/wvnhs/getEvents/events.php on line 51
+[30-Oct-2014 18:44:17] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home3/jakepode/public_html/wvnhs/getEvents/events.php on line 50

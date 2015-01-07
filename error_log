@@ -1,0 +1,9 @@
+[22-Oct-2014 19:26:37] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/jakepode/public_html/wvnhs/gardenKids.php on line 53
+[22-Oct-2014 19:27:19] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/jakepode/public_html/wvnhs/gardenKids.php on line 53
+[22-Oct-2014 19:28:31] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/jakepode/public_html/wvnhs/gardenKids.php on line 53
+[22-Oct-2014 19:28:56] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/jakepode/public_html/wvnhs/gardenKids.php on line 53
+[22-Oct-2014 19:37:11] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/jakepode/public_html/wvnhs/gardenKids.php on line 53
+[23-Oct-2014 05:13:41] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/jakepode/public_html/wvnhs/gardenKids.php on line 53
+[17-Nov-2014 12:57:27] PHP Warning:  Division by zero in /home3/jakepode/public_html/wvnhs/hours.php on line 53
+[17-Nov-2014 12:57:27] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home3/jakepode/public_html/wvnhs/hours.php on line 64
+[21-Dec-2014 19:30:08] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/jakepode/public_html/wvnhs/emailList.php on line 53

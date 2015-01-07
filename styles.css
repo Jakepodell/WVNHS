@@ -1,0 +1,255 @@
+.signup{
+	position:relative;
+	border-left:1px solid black;
+	color:white;
+	float:right;
+	padding: 0.5em;
+	margin:0.2em;
+	font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	cursor:pointer;
+	z-index:100;
+}
+.headbar{
+	position:fixed;
+	background:-o-linear-gradient(bottom, #005fbf 5%, #003f7f 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #005fbf), color-stop(1, #003f7f) );
+	background:-moz-linear-gradient( center top, #005fbf 5%, #003f7f 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#005fbf", endColorstr="#003f7f");	background: -o-linear-gradient(top,#005fbf,003f7f);
+	width:100%;
+	z-index:9999;
+	overflow:hidden;
+	height:2.5em;
+}
+	
+#container{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	text-align: center;
+}
+body{
+	background-image:url("wv.jpg");
+	background-size:100%;
+	margin:0;
+	background-attachment:fixed;
+	background-repeat:no-repeat;}
+/*	background-color:#B4D8E7;
+	background: -webkit-linear-gradient(#B4D8E7, navy); /* For Safari 5.1 to 6.0 
+    background: -o-linear-gradient(#B4D8E7, navy); /* For Opera 11.1 to 12.0 
+    background: -moz-linear-gradient(#B4D8E7, navy); /* For Firefox 3.6 to 15 
+    background: linear-gradient(#B4D8E7, navy); /* Standard syntax 
+
+html {
+    height: 200%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    background: linear-gradient(#B4D8E7, #2A72BF); /* Standard syntax 
+}}*/
+
+.titleBox{
+	margin: 0 auto;
+	background-color: rgba(20,110,173,.75);
+	padding-top: 2em;
+	padding-bottom: 1.5em;
+	display: block;
+	position: relative;
+	text-align: center;
+}
+.titleBox h1{
+	color: rgb(0,32,96);
+	font-family: "Copperplate Gothic";
+	font-size: 3em;
+	text-shadow:2px 2px #fff;
+	margin-top:0;
+}
+.titleBoxWrapper{
+	margin: 0 auto;
+	padding: 1em;
+	width: 55%;
+	background-color: rgba(255,255,255,0.5);
+	display: inline-block;
+}
+
+.announcment{
+	margin: 0 auto;
+	background-color: rgba(0,32,96,.85);
+	padding: 2em;
+	display: block;
+	position: relative;
+	text-align: left;
+}
+.announcment h1{
+	color: white;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+	font-style: italic;
+	font-size: 3em;
+	text-shadow:2px 2px #000;
+	margin-top: 0;
+	text-align: center;
+}
+.announcment h2{
+	color: white;
+	font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: x-large;
+	text-shadow:2px 2px #000;
+}
+.announcment p, li{
+	color: white;
+	font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: large;
+	text-shadow:2px 2px #000;
+}
+
+.announcmentWrapper{
+	margin: 0 auto;
+	padding: 1em;
+	width: 70%;
+	background-color: rgba(255,255,255,0.5);
+	position: relative;
+	display: inline-block;
+	margin-bottom:5em;
+}
+
+.pictureWrapper2{
+	margin: 0 auto 0 5%;
+	padding: 1em;
+	width: 12%;
+	background-color: rgba(255,255,255,0.5);
+	position: relative;
+	display: inline-block;
+}
+
+.picture img{
+	left:4%;
+	position:relative;
+	height:100%;;
+	width:90%;
+	margin:0 auto;
+	margin-top:-27%;
+	top:27%;
+}
+.picture2 img{
+	position:relative;
+	height:50%;;
+	width:115%;
+	margin:0 auto;
+	margin-top:23%;
+	left:-12%;
+}
+
+.picture2{
+	margin: 0 auto;
+	background-color: rgba(20,110,173,.75);
+	padding: 0.5em 0;
+	position: relative;
+	text-align: left;
+	height:10em;
+}
+.pictureWrapper{
+	margin: 20px 5% 0 auto;
+	padding: 1em;
+	width: 12%;
+	background-color: rgba(255,255,255,0.5);
+	position: relative;
+	display: inline-block;
+
+}
+.picture{
+	margin: 0 auto;
+	background-color: rgba(20,110,173,.75);
+	padding: 0.5em;
+	position: relative;
+	text-align: left;
+	height:10em;
+}
+
+hr.experiencehr {
+    border: 0;
+    height: 1px;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(left, rgba(0,50,96,.85), #3498db, rgba(0,50,96,.85)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,50,96,.85), #3498db, rgba(0,50,96,.85)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,50,96,.85), #3498db, rgba(0,50,96,.85)); 
+    background-image:      -o-linear-gradient(left, rgba(0,50,96,.85), #3498db, rgba(0,50,96,.85)); 
+}
+#calendar {
+	margin: 0 auto;
+	font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+	font-size: 14px;
+}
+.calendarWrapper{
+	padding: 1em;
+	background-color: rgba(20,110,173,.75);
+	position: relative;
+	display: inline-block;
+}
+.calendarWrapper2{
+	padding: 1.5em;
+	width: 80%;
+	background-color: rgba(255,255,255,.75);
+	position: relative;
+	display: inline-block;
+	margin-bottom: 10em;
+}
+a:link{
+color:#fff;
+font-weight:bold;
+}
+
+a:visited{
+color:#bbb;
+font-weight:bold;
+}
+
+li{
+color:white;
+}
+
+
+.block{
+	width: 100%;
+	background-color: black;
+	position: relative;
+	height: 100%;
+	padding-top: 10px;
+	z-index: 500;
+	text-align:center;
+}
+.caption{
+
+	background-image:
+        -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0.0, rgba(0,0,0,0)),
+        color-stop(0.85, rgba(0,0,0,1))
+    );
+    -moz-linear-gradient(
+        center top,
+        rgba(0,0,0,0) 0%,
+        rgba(0,0,0,1) 85%
+    );
+
+	margin-top: -30%;
+	height: 40%;
+	z-index: 5000;
+	position: absolute;
+	width: 97%;
+	color: white;
+	line-height: 4px;
+	padding: 30px 10px 10px 10px;
+}
+.caption h1{
+	font-size: 1.5em;
+	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+	font-style: italic;
+}
+.caption p{
+	line-height: 20px;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
