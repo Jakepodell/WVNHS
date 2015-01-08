@@ -24,8 +24,6 @@
 	</div>
 	
 <?php //starting tag
-
-$con=mysqli_connect("localhost","jakepode_user1","Hello.5253","jakepode_hellodb");
 // Check connection
 if (mysqli_connect_errno()) {
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
